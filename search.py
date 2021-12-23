@@ -3,7 +3,7 @@ def init(params: dict):
 
 
 def run(data: dict, func=None) -> bool:
-    if data["objectPath"].startswith "207":
+    if data["objectPath"].startswith('207'):
         return True
     if data["fileSize"] > 2*1024:
         return True
