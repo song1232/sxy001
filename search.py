@@ -3,7 +3,7 @@ def init(params: dict):
 
 
 def run(data: dict, func=None) -> bool:
-    if data["objectPath"] == "207374.png":
+    if data["objectPath"].startswith "207":
         return True
     return False
 
