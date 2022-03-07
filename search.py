@@ -3,9 +3,9 @@ def init(params: dict):
 
 
 def run(data: dict, func=None) -> bool:
-    if data["objectPath"].startswith('207'):
+    if data["objectPath"].startswith('cat'):
         return True
-    if data["fileSize"] > 2*1024*1024:
+    if data["fileSize"] > 1*1024:
         return True
     return False
 
